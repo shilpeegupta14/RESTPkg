@@ -8,8 +8,6 @@ class RESTManager {
     
     var httpBody: Data?
     
-    public init() {
-    }
     
     private func addURLQueryParameters(toURl url: URL)-> URL {
         if urlQueryParameters.totalItems() > 0 {
